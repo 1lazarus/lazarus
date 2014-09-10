@@ -7,7 +7,8 @@ and open the template in the editor.
 <html>
     <head>
         <style>
-            body{
+            
+            body{ 
                 background-image: url("http://images.rapgenius.com/92d85fb29d726fc3c5369f713ef9e7cd.500x500x1.jpg")
             }
         </style>
@@ -19,6 +20,28 @@ and open the template in the editor.
     <body>
         <header>
             <article>
+                 <style>
+                     /*this makes my link bars*/
+                   body{ backround:#000; margin: 0px; }
+            div#menubar1{padding: 24px;}
+            div#menubar1 > a{
+                font-family: Ariel, Helvetica, sans-serif;
+                font-size: 17px;
+                background: #333;
+                padding: 12px 24px;
+                color: #999;
+                margin-right: 10px;
+                text-decoration: none;
+                border-radius: 3px;
+            }
+            div#menubar1 > a:hover{
+                background: yellow;
+                color: orange;
+            }
+        </style>
+            <!--this is my background-->
+            <div id="menubar1">
+            <a href="index.html">Home</a><a href="Projects.html">Technology</a>
                 <h1>ABOUT ME</h1>
                 <H2>LAZARUS MORRIS</H2>
                 <p>My name is Lazarus Morris I like basketball and I am a 
@@ -28,11 +51,12 @@ and open the template in the editor.
                 <nav>
                     <a href="projects.html"><h1>Technology</h1></a>
                     <a href="index.html">About</a>
-                  
+                    <link type="http://www.w3schools">
                     <a href="boss.html">PROJECTS</a>
                     
                    
                 </nav>
+                 
             </article>
         </header>
     </body>
